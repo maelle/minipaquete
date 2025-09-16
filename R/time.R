@@ -1,3 +1,13 @@
+#' Decir qué hora es
+#'
+#' @param language Idioma, "es" o "en".
+#'
+#' @returns Cadena de caracteres con la hora.
+#' @export
+#'
+#' @examples
+#' what_time()
+#' what_time("en")
 what_time <- function(language = "es") {
   if (!language %in% c("es", "en")) {
     stop("Either choose 'es' or 'en' as a language.")
