@@ -1,0 +1,22 @@
+---
+title: "minipkg"
+vignette: >
+  %\VignetteIndexEntry{minipkg}
+  %\VignetteEngine{quarto::html}
+  %\VignetteEncoding{UTF-8}
+knitr:
+  opts_chunk:
+    collapse: true
+    comment: '#>'
+---
+
+```{r}
+#| label: setup
+library(minipaquete)
+```
+
+Voy a usar mi paquete de manera realista.
+
+```{r}
+what_time()
+```
