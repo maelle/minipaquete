@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check.yaml](https://github.com/maelle/minipaquete/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/maelle/minipaquete/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of minipaquete is to tell me what time it is.
@@ -26,5 +27,5 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(minipaquete)
 what_time()
-#> [1] "Ahhh! Ahora son las 14:10!"
+#> [1] "Gee! Ahora son las 15:03!"
 ```
